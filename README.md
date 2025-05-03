@@ -34,18 +34,3 @@
 - [JWT](https://jwt.io/) – Secure authentication  
 - RESTful API architecture  
 
----
-
-## 🚀 Getting Started
-
-### ✅ Prerequisites
-
-- Node.js (v16 or higher)  
-- MongoDB (local instance or [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))  
-
-### ⚙️ Installation & Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/hirendra/focusMonitor.git
-   cd focus-forge
