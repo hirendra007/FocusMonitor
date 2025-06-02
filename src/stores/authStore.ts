@@ -56,7 +56,7 @@ export const useAuthStore = create<AuthState>((set) => {
           ? error.response?.data?.message || 'Authentication failed'
           : 'Authentication failed';
         set({ error: message, isLoading: false });
-        console.error(message);
+        
       }
     },
 
@@ -75,7 +75,7 @@ export const useAuthStore = create<AuthState>((set) => {
           ? error.response?.data?.message || 'Registration failed'
           : 'Registration failed';
         set({ error: message, isLoading: false });
-        console.error(message);
+        
       }
     },
 
